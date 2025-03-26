@@ -46,14 +46,14 @@ Clusters included:
 
 ### Collaborative Filtering
 
-| Method         | RMSE    | Pros                            | Cons                      |
-|----------------|---------|----------------------------------|---------------------------|
-| User-Based     | 2.8255  | Personalized                    | Cold-start, computational |
-| Item-Based     | 2.8121  | Scalable                        | Less personalized         |
-| SVD            | 2.5822  | Handles sparsity                | Not interpretable         |
-| NMF            | 2.6901  | Interpretable                   | Weak with missing data    |
-| SVD++          | 2.6056  | Implicit + explicit feedback    | Computationally heavy     |
-| Deep Learning  | 3.0697  | Captures non-linearity          | Overfit, high cost        |
+| Method         | RMSE    |
+|----------------|---------|
+| User-Based     | 2.8255  |
+| Item-Based     | 2.8121  |
+| SVD            | 2.5822  |
+| NMF            | 2.6901  |
+| SVD++          | 2.6056  |
+| Deep Learning  | 3.0697  |
 
 ### Hybrid Models
 - **Weighted Hybrid** (best RMSE: 2.5763)
