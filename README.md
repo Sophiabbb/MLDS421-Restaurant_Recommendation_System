@@ -1,9 +1,8 @@
 
 # 🍽️ Restaurant Recommendation System & Customer Segmentation
 
+## Project Overview
 This project tackles the challenge of helping users choose a restaurant based on users' order history. By implementing customer segmentation and advanced recommendation systems, we deliver more personalized restaurant recommendations and marketing strategies.
-
-## Overview
 
 With a dataset of over 1 million rows from a food delivery app, we implemented two core systems:
 
