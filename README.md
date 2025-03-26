@@ -11,14 +11,14 @@ With a dataset of over 1 million rows from a food delivery app, we implemented t
 
 ---
 
-## Customer Segmentation
+## Customer Segmentation Approach
 
-### Data Preprocessing
+### 1. Data Preprocessing
 - Reduced from 1M+ rows to 129K clean records across 29 features
 - Grouped 60+ vendor tags into 11 broad cuisine categories
 - Removed age/gender due to missing data and bias concerns
 
-### RFM Analysis (K-Means Clustering)
+### 2. RFM Analysis (K-Means Clustering)
 Clustered users based on Recency, Frequency, and Monetary value + Customer Lifetime Value (CLV)
 
 | Segment      | Description          | Strategy                          |
@@ -28,7 +28,7 @@ Clustered users based on Recency, Frequency, and Monetary value + Customer Lifet
 | Churn Users  | Low engagement       | Targeted re-engagement offers     |
 | Lost Users   | Inactive             | Win-back campaigns                |
 
-### Cuisine Preference Clustering
+### 3. Cuisine Preference Clustering
 Applied K-Means, K-Modes, and Hierarchical clustering on vendor tags to find food preferences.
 
 Clusters included:
@@ -37,13 +37,13 @@ Clusters included:
 
 ---
 
-## Restaurant Recommendation System
+## Restaurant Recommendation System Approach
 
-### User-Item Matrix
+### 1. User-Item Matrix
 - Built from order history (no ratings)
 - Ratings derived from order frequency per user-vendor
 
-### Collaborative Filtering
+### 2. Collaborative Filtering
 
 | Method         | RMSE    |
 |----------------|---------|
@@ -54,7 +54,7 @@ Clusters included:
 | SVD++          | 2.6056  |
 | Deep Learning  | 3.0697  |
 
-### Hybrid Models
+### 3. Hybrid Models
 - **Weighted Hybrid** (best RMSE: 2.5763)
 - **Stacked Models** using Random Forest & Neural Networks (best RMSE: 2.4803)
 
