@@ -38,7 +38,7 @@ Clusters included:
 
 ---
 
-## Recommendation System
+## Restaurant Recommendation System
 
 ### User-Item Matrix
 - Built from order history (no ratings)
