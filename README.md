@@ -14,7 +14,7 @@ With a dataset of over 1 million rows from a food delivery app, we implemented t
 ## Customer Segmentation Approach
 
 ### 1. Data Preprocessing
-- Reduced from 1M+ rows to 129K clean records across 29 features
+- Cleaned and merged four datasets (customer, order, vendor, and location) into a single dataset for analysis. The final dataset contains 135K order records and 33 features.
 - Grouped 60+ vendor tags into 11 broad cuisine categories
 - Removed age/gender due to missing data and bias concerns
 
