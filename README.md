@@ -29,11 +29,12 @@ Applied K-Means clustering to cluster users based on Recency, Frequency, and Mon
 | 4       | Lost Users     | Inactive             | Win-back campaigns               | 189                  | 2                        | $26.71         | $12.56             | 22%                      |
 
 ### 3. Cuisine Preference Clustering
-Applied K-Means, K-Modes, and Hierarchical clustering on vendor tags to find food preferences.
+Applied K-Means, K-Modes, and Hierarchical clustering on vendor tags to find cuisine preferences.
 
 Clusters included:
-- Asian, American/Italian, Arabic, Breakfast lovers
-- Balanced or diverse eaters
+- **K-Means**: Breakfast Lovers, Healthy & Beverage Lovers, Global Cuisine Lovers
+- **K-Modes**: Global Taste Lovers, Breakfast & Dessert Lovers, Italian & Health Lovers, American Food Lovers, Comfort Food Lovers
+- **Hierarchical Clustering**: Global Variety Lovers, Balanced Food Lovers, American Food Lovers
 
 ---
 
