@@ -41,23 +41,40 @@ Clusters included:
 ## Restaurant Recommendation System Approach
 
 ### 1. User-Item Matrix
-- Built from order history (no ratings)
+- Built from order history
 - Ratings derived from order frequency per user-vendor
 
 ### 2. Collaborative Filtering
+- **Memory-Based CF**: User-Based, Item-Based
+- **Model-Based CF**:
+  - Matrix Factorization: SVD, NMF, SVD++
+  - Deep Learning
+  
+- **Results**:
 
 | Method         | RMSE    |
 |----------------|---------|
 | User-Based     | 2.8255  |
 | Item-Based     | 2.8121  |
-| SVD            | 2.5822  |
-| NMF            | 2.6901  |
-| SVD++          | 2.6056  |
-| Deep Learning  | 3.0697  |
+| SVD            | 2.6002  |
+| NMF            | 2.6802  |
+| SVD++          | 2.6054  |
+| Deep Learning  | 3.0611  |
 
 ### 3. Hybrid Models
-- **Weighted Hybrid** (best RMSE: 2.5763)
-- **Stacked Models** using Random Forest & Neural Networks (best RMSE: 2.4803)
+- **Weighted Hybrid**: SVD & SVD++, SVD++ & Item-Based, SVD++ & Deep Learning
+- **Stacked Models**: Random Forest, Neural Networks
+- **Results**:
+
+| Method                | RMSE    |
+|-----------------------|---------|
+| SVD & SVD++           | 2.8255  |
+| SVD++ & Item-Based    | 2.8121  |
+| SVD++ & Deep Learning | 2.5822  |
+| Random Forest         | 2.4803  |
+| Neural Networks       | 2.4845  |
+
+✅ **Stacked model with random forest** performed the best among all the models.
 
 ---
 
