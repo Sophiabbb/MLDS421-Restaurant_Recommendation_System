@@ -4,10 +4,10 @@
 ## Project Overview
 This project tackles the challenge of helping users choose a restaurant based on users' order history. By implementing customer segmentation and advanced recommendation systems, we deliver more personalized restaurant recommendations and marketing strategies.
 
-With a dataset of over 1 million rows from a food delivery app, we implemented two core systems:
+With the datasets from a food delivery app, we implemented two core systems:
 
-1. **Customer Segmentation** using RFM and cuisine preference clustering
-2. **Restaurant Recommendation System** using collaborative filtering and hybrid models
+1. **Customer Segmentation** using RFM and cuisine preference clustering to understand users' spending habits and identify user preferences for different types of cuisine.
+2. **Restaurant Recommendation System** using collaborative filtering and hybrid models to suggest restaurants tailored to each user’s preferences and ordering behavior.
 
 ---
 
