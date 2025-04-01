@@ -14,7 +14,7 @@ With the datasets from a food delivery app, we implemented two core systems:
 ## Customer Segmentation Approach
 
 ### 1. Data Preprocessing
-- Cleaned and merged four datasets (customer, order, vendor, and location) into a single dataset for analysis. The final dataset contains 135K order records and 33 features.
+- Cleaned and merged four datasets (customer, order, vendor, and location) into a single dataset for analysis. The final dataset contains 135K order records and 33 features
 - Grouped 60+ vendor tags into 11 broad cuisine categories
 - Removed age/gender due to missing data and bias concerns
 
@@ -75,6 +75,29 @@ Clusters included:
 | Neural Networks       | 2.4845  |
 
 ✅ **Stacked model with random forest** performed the best among all the models.
+
+---
+
+## Files Description
+- **1_Preprocessing_and_EDA.ipynb**: Notebook for data cleaning and exploratory data analysis.
+- **2_Customer_Segmentation.ipynb**: Notebook for customer segmentation.
+- **3_Recommendation_System.ipynb**: Notebook for restaurant recommendation system.
+- **Presentation.pdf**: Final project presentation slides summarizing the entire project.
+- **environment.yml**: Conda environment file listing all dependencies and packages used for running the notebook.
+- **README.md**: Project overview and documentation.
+
+## How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Sophiabbb/MLDS421-Restaurant_Recommendation_System.git
+   cd MLDS421-Restaurant_Recommendation_System
+   ```
+
+2. Install dependencies using environment.yml: 
+    ```bash
+    conda env create -f environment.yml -n myenv
+    ```
 
 ---
 
