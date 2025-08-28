@@ -78,6 +78,35 @@ Clusters included:
 
 ---
 
+## Files Description
+```
+├── AWS_Depployment_Presentation.pdf       # Presentation on AWS deployment architecture
+├── Modeling_Presentation.pdf              # Presentation on modeling process/results
+├── README.md                              # Project overview
+├── backend/                               # Backend code and configurations
+│   ├── pipeline.py                        # Main backend pipeline script
+│   ├── requirements.txt                   # Python dependencies for backend
+│   ├── config/                            # Backend configuration file
+│   ├── dockerfiles/                       # Dockerfile for backend services
+│   ├── log/                               # Log files directory
+│   ├── src/                               # Core backend source code
+│   └── tests/                             # Unit tests for backend
+├── etl/                                   # ETL (Extract, Transform, Load) scripts
+│   └── ETL_code.py                        # Script for data extraction, cleaning, and loading
+├── frontend/                              # Frontend code and configurations
+│   ├── Dockerfile                         # Dockerfile for frontend
+│   ├── requirements.txt                   # Python dependencies for frontend
+│   ├── webapp.py                          # Main web application script
+│   └── config/                            # Frontend configuration file
+└── notebooks/                             # Jupyter notebooks for data analysis and modeling
+    ├── 1_Preprocessing_and_EDA.ipynb      # Data preprocessing and exploratory data analysis
+    ├── 2_Customer_Segmentation.ipynb      # Customer segmentation analysis
+    ├── 3_Recommendation_System.ipynb      # Recommendation system modeling
+    └── environment.yml                    # Conda environment configuration
+```
+
+---
+
 ## Contributors
 - Fuqian Zou
 - Glenys Lion
