@@ -111,4 +111,5 @@ Clusters included:
 - Fuqian Zou
 - Glenys Lion
 - Iris Lee
+- Kavya Bhat
 - Liana Bergman-Turnbull
